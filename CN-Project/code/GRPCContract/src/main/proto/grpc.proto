@@ -1,0 +1,68 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+option java_multiple_files = true;
+option java_package = "grpcserver";
+
+package grpcserver;
+
+// The gRPC server service definition.
+service Server {
+  // Upload an image
+  rpc uploadImage(stream ImageUploadDownload) returns (ImageResponse);
+  // Get the list of objects found in the desired image
+  rpc getImageDetectedObjects(ImageIdentifier) returns (ImageObjects);
+  // Get the original image annotated with the zones where the objects were found
+  rpc downloadAnnotatedImage(ImageIdentifier) returns (stream ImageUploadDownload);
+  // Get the stored files between two dates, which contain a specific object with a score greater than 't'
+  rpc searchForFiles(SearchProperties) returns (FilesResponse);
+  // Gets all the available documents within a limit
+  rpc getAllFiles(Pagination) returns (FilesResponse);
+  // Delete a specific file from the Cloud Storage and Firestore
+  rpc deleteFile(ImageIdentifier) returns (ImageResponse);
+}
+
+message ImageMetadata {
+  string name = 1;
+  string type = 2;
+  int64 size = 3;
+}
+
+message ImageUploadDownload {
+  oneof request {
+    ImageMetadata metadata = 1;
+    bytes content = 2;
+  }
+}
+
+message ImageResponse {
+  string id = 1;
+  string name = 2;
+  int32 objectsFound = 3; // Optional field
+}
+
+message ImageIdentifier {
+  string id = 1;
+}
+
+message ImageObjects {
+  string id = 1;
+  string imageName = 2;
+  // Key = objectName, Value = times that the object was detected
+  map<string, int32> objectsNames = 3;
+}
+
+message SearchProperties {
+  google.protobuf.Timestamp initialTimestamp = 1;
+  google.protobuf.Timestamp lastTimestamp = 2;
+  string objectName = 3;
+  double score = 4;
+}
+
+message FilesResponse {
+  repeated ImageResponse responses = 1;
+}
+
+message Pagination {
+  int32 limit = 1;
+  int32 offset = 2;
+}

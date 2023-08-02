@@ -1,8 +1,8 @@
 # ISEL Projects
 
-In this repository, I present the most important projects developed during my Licentiate's Degree in Computer Science and Engineering at ISEL.
+In this repository, I present some of the most important and complete projects developed during my Licentiate's Degree in Computer Science and Engineering at ISEL.
 
-## [PC Exercises]()
+## [PC Exercises](PC-Exercises/)
 My resolution of the exercises given by the professor for each section of the subjects learned in the "Concurrent Programming" course. Some of the subjects learned were:
 * Data synchronization and locking
 * Monitors (implicit and explicit) in the JVM and in the .NET platform
@@ -13,14 +13,15 @@ My resolution of the exercises given by the professor for each section of the su
 * Asynchronous methods in the C# language
 
 
-## [PI Project]()
-As an introduction to Web applications, in the "Internet Programming" course, we built a simple Web App with the objective of allowing users to search and create their own lists of board games, which would be obtained through an external API that had all the necessary information about them.
-Along the way I learned some concepts about the architecture of the World Wide Web, how the content is distributed in the web, how to setup an infrastructure with a client and a server component in order to support the desired functionalities, the best practices in the programming model, among others.   
+## [PI Project](PI-Project/)
+As an introduction to Web applications in the "Internet Programming" course, we developed a simple Web App with the objective of enabling users to search for and create their own lists of board games. To achieve this, we utilized an external API that provided all the necessary information about the games.
+
+Throughout the course, I gained insights into the architecture of the World Wide Web, including how content is distributed across the web and how to set up an infrastructure with client and server components to support the desired functionalities. Additionally, I learned about the importance of modularization, separating code into different modules based on their responsibilities, and applying best practices in the programming model, among other valuable concepts.   
 
 To accomplish the Web App objectives the technologies used were the following: `express` to handle requests, `node-fetch` to make requests, `jest` to make unit tests, `supertest` to make integration tests and `passport` to handle the authentication/state management. In the front-end was used `handlebars` to build the HTML pages with the fetched data. The project was deployed to the Heroku cloud platform and all the API documentation is described in the OpenAPI/Swagger file under the directory `docs/borga-api-spec.yaml`.
 
 
-## [PDM Project]()
+## [PDM Project](PDM-Project/)
 In "Mobile Devices Programming," we developed a native application for Android devices using `Kotlin`. The application had the following objectives:
 1. Fetch a puzzle of the day: The app allowed users to retrieve a new puzzle each day for users to solve.
 2. Puzzle resolution: Users could attempt to solve the daily puzzle and receive feedback on their solutions.
@@ -29,7 +30,7 @@ In "Mobile Devices Programming," we developed a native application for Android d
 5. Distributed chess game: The app enabled two players to play chess with each other, each using their distinct Android devices.
 
 
-## [DAW Project]()
+## [DAW Project](DAW-Project/)
 In the "Web Application Development" course, we created a system to manage the states of a specific project, incorporating the following features:
 
 * Project management: The system allowed users to manage different projects, including tracking their states and progress.
@@ -41,7 +42,7 @@ To implement the system, we designed and implemented a Web API with the characte
 For the backend development, we utilized the `Spring framework in Kotlin`, taking advantage of its robust features and flexibility. On the frontend side, we used `ReactJS` with `TypeScript`, enabling us to build a responsive and dynamic user interface.
 
 
-## [CN Project]()
+## [CN Project](CN-Projects/)
 In the "Cloud Computing" course, we undertook a project to design and develop a system for submissions and execution of distributed tasks. The main objective was to create a system capable of detecting multiple objects in submitted images and generating new annotated images with the identified object zones.
 
 To accomplish these goals, we utilized the following Google Cloud Platform services:
@@ -52,7 +53,7 @@ To accomplish these goals, we utilized the following Google Cloud Platform servi
 * **Cloud Functions**: Google Cloud Functions were used to implement serverless functions, enabling automatic lookup for the IPs of the main server and handling the deployment of virtual machines.
 * **Vision API**: Google Cloud Vision API played a crucial role in object detection within the submitted images, providing accurate and efficient analysis.
 
-A more detailed description of the project is present in the [**documentation**]() directory.
+A more detailed description of the project is present in the ['CN-Project/docs'](CN-Project/docs) directory.
 
 
 ## [PS Project/Final Project](https://github.com/Radnar9/QRreport)
