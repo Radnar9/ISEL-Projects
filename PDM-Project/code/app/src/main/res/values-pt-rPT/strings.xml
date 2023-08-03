@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChessRoyale</string>
+    <string name="puzzle_of_day_button_text">Puzzle Do Dia</string>
+    <string name="about_menu">Acerca de</string>
+    <string name="history_menu">Puzzles passados</string>
+    <string name="next_player">Próximo jogador:</string>
+    <string name="white">Branco</string>
+    <string name="loading_puzzle">A carregar…</string>
+    <string name="puzzle_solved">Puzzle resolvido!</string>
+    <string name="get_puzzle_error">Não foi possível obter o puzzle diário.
+        Por favor verifique a sua ligação à internet</string>
+    <string name="solved_puzzle">Resolvido</string>
+    <string name="not_solved_puzzle">Não resolvido</string>
+    <string name="wrong_piece_color">Cor de peça errada!</string>
+    <string name="wrong_move">Essa não é a melhor jogada, tente de novo.</string>
+    <string name="solution_button">Solução</string>
+    <string name="play_again_button">Jogar</string>
+    <string name="puzzle_not_started">Clique no botão Jogar para começar a resolver!</string>
+    <string name="solution_presented">Solução final:</string>
+    <string name="winner">Vencedor:</string>
+    <string name="singleplayer">Um jogador</string>
+    <string name="multiplayer">Multijogador</string>
+    <string name="create_challenge_title">Criar desafio</string>
+    <string name="create_challenge_waiting_message">À espera de adversário</string>
+    <string name="create_challenge_prompt_challenger_name">Nome</string>
+    <string name="create_challenge_prompt_message">Mensagem</string>
+    <string name="create_challenge_button_label">Publicar desafio</string>
+    <string name="cancel_challenge_button_label">Cancelar</string>
+    <string name="create_challenge_button_label_in_short">Postar</string>
+    <string name="error_creating_challenge">Não foi possível criar um desafio</string>
+    <string name="list_create_challenge_button_label">Novo desafio</string>
+    <string name="list_menu_update_label">Refrescar</string>
+    <string name="error_getting_list">Não foi possível obter a lista de desafios</string>
+    <string name="error_accepting_challenge">Não foi possível aceitar o desafio</string>
+    <string name="accept_challenge_dialog_title">Aceitar o desafio de %s</string>
+    <string name="accept_challenge_dialog_ok">OK</string>
+    <string name="accept_challenge_dialog_cancel">Cancelar</string>
+    <string name="loading">A carregar…</string>
+    <string name="list_screen_title">Puzzle desafios</string>
+    <string name="promote_pawn">Promover pião:</string>
+    <string name="invalid_move">Jogada inválida, tente de novo.</string>
+    <string name="homeButton">Início</string>
+    <string name="get_multiplayer_error">Não foi possível comunicar com o seu adversário. Por favor verifique a sua conexão à internet.</string>
+    <string name="surrenderButton">Desistir</string>
+</resources>

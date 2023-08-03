@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "170851245594",
+    "project_id": "pdm-g09",
+    "storage_bucket": "pdm-g09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170851245594:android:d36b5cefdf56333c5e7ba3",
+        "android_client_info": {
+          "package_name": "pdm.chessroyale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170851245594-frqb8ko4ufieoah1v1abjdvmn1g9lqjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd5BNQoJeAhspn259rzQgxJhAMtY0jrsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170851245594-frqb8ko4ufieoah1v1abjdvmn1g9lqjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

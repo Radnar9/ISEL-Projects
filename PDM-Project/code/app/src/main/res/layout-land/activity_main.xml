@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/puzzle_of_day_button"
+        android:layout_width="190dp"
+        android:layout_height="51dp"
+        android:text="@string/puzzle_of_day_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameGame"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <TextView
+        android:id="@+id/nameGame"
+        android:layout_width="320dp"
+        android:layout_height="64dp"
+        android:fontFamily="serif"
+        android:text="@string/chessroyale"
+        android:textAlignment="center"
+        android:textColor="@color/chess_board_black"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <Button
+        android:id="@+id/singleplayer_button"
+        android:layout_width="190dp"
+        android:layout_height="51dp"
+        android:text="@string/singleplayer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puzzle_of_day_button"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <Button
+        android:id="@+id/multiplayer_button"
+        android:layout_width="190dp"
+        android:layout_height="51dp"
+        android:text="@string/multiplayer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singleplayer_button"
+        app:layout_constraintVertical_bias="0.01"
+        tools:text="Multiplayer" />
+</androidx.constraintlayout.widget.ConstraintLayout>

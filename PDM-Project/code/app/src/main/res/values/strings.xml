@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ChessRoyale</string>
+    <string name="puzzle_of_day_button_text">Puzzle Of Day</string>
+    <string name="about_menu">About</string>
+    <string name="history_menu">Past puzzles</string>
+    <string name="next_player">Next player:</string>
+    <string name="white">White</string>
+    <string name="chessroyale" translatable="false">ChessRoyale</string>
+    <string name="loading_puzzle">Loading</string>
+    <string name="puzzle_solved">Puzzle solved!</string>
+    <string name="get_puzzle_error">Could not fetch the daily puzzle.
+        Please check your internet connection</string>
+    <string name="get_multiplayer_error">Could not communicate with your opponent.
+        Please check your internet connection.</string>
+    <string name="solved_puzzle">Solved</string>
+    <string name="not_solved_puzzle">Not solved</string>
+    <string name="wrong_piece_color">Wrong piece color!</string>
+    <string name="wrong_move">That\'s not the best move, try again.</string>
+    <string name="invalid_move">Invalid move, try again.</string>
+    <string name="solution_button">Solution</string>
+    <string name="play_again_button">Play</string>
+    <string name="puzzle_not_started">Click on the Play button to start solving!</string>
+    <string name="solution_presented">Final solution:</string>
+    <string name="singleplayer">Singleplayer</string>
+    <string name="multiplayer">Multiplayer</string>
+    <string name="winner">Winner:</string>
+
+    <!-- Game list screen -->
+    <string name="list_screen_title">Puzzle challenges</string>
+    <string name="list_create_challenge_button_label">New Challenge</string>
+    <string name="list_menu_update_label">Refresh</string>
+    <string name="error_getting_list">Could not fetch challenges list</string>
+    <string name="error_accepting_challenge">Could not accept challenge</string>
+    <string name="accept_challenge_dialog_title">Accept %s\'s challenge?</string>
+    <string name="accept_challenge_dialog_ok">OK</string>
+    <string name="accept_challenge_dialog_cancel">Cancel</string>
+    <string name="loading">Loading…</string>
+
+    <!-- Create challenge screen -->
+    <string name="create_challenge_title">Create Challenge</string>
+    <string name="create_challenge_waiting_message">Waiting for the contender</string>
+    <string name="create_challenge_prompt_challenger_name">Name</string>
+    <string name="create_challenge_prompt_message">Message</string>
+    <string name="create_challenge_button_label">Post challenge</string>
+    <string name="cancel_challenge_button_label">Cancel</string>
+    <string name="create_challenge_button_label_in_short">Post it</string>
+    <string name="error_creating_challenge">Could not create challenge</string>
+
+    <string name="checkmate" translatable="false">CHECKMATE</string>
+    <string name="game_over" translatable="false">GAME-OVER</string>
+
+    <string name="promote_pawn">Promote pawn:</string>
+    <string name="homeButton">Home</string>
+    <string name="surrenderButton">Surrender</string>
+</resources>
